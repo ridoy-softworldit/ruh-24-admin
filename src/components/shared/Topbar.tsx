@@ -122,7 +122,7 @@ export function TopNavbar({ isSidebarOpen, toggleSidebar }: TopNavbarProps) {
         
         {/* Action Buttons - Hidden on small screens */}
         <div className="hidden md:flex items-center gap-2">
-          <Link href={`https://www.bdmbazar.com`}>
+          <Link href={`https://www.ruh24.com`}>
             <Button
               variant="outline"
               size="sm"
@@ -238,7 +238,7 @@ export function TopNavbar({ isSidebarOpen, toggleSidebar }: TopNavbarProps) {
                   <RotateCw className="h-5 w-5 mr-2 animate-spin" style={{ animationDuration: '3s' }} />
                   <span className="font-medium">Reload</span>
                 </Button>
-                <Link href={`https://www.bdmbazar.com`}>
+                <Link href={`https://www.ruh24.com`}>
                   <Button
                     variant="outline"
                     size="sm"

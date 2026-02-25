@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import logo from "/public/logo.png";
 import {
   LayoutDashboard,
   ShoppingCart,
@@ -417,7 +418,7 @@ export function AppSidebar({
         {!isCollapsed && (
           <h1 className="text-lg font-bold text-black truncate transition-opacity duration-200">
             <Image
-              src="https://res.cloudinary.com/dvbnagad5/image/upload/v1758109967/bdmbazarlogo_ujourw.jpg"
+              src={logo}
               alt="logo"
               height={60}
               width={60}

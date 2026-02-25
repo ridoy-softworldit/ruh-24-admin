@@ -5,6 +5,8 @@ import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Link from "next/link";
+
+import logo from "/public/logo.png";
 import { signIn } from "next-auth/react";
 import InputField from "../shared/InputField";
 import { useAuthHandlers } from "@/lib/authActions";
@@ -55,13 +57,13 @@ export default function AuthForm({ type }: AuthFormProps) {
     >
       <div className="flex justify-center">
         <Image
-          src="https://res.cloudinary.com/dvbnagad5/image/upload/v1758109967/bdmbazarlogo_ujourw.jpg"
+          src={logo}
           alt="logo"
           width={100}
           height={100}
         />
       </div>
-      <h2 className="my-6 capitalize text-center">{type} to dashboard</h2>
+      <h2 className="my-6 capitalize text-center">{type} to Admin dashboard</h2>
       <div className=" bg-white border  px-5 py-5 border-gray-300 rounded-lg text-black">
         {/* form */}
         <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

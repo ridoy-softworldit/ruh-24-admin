@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BDM Bazar",
+  title: "Ruh24",
   description: "Vendor management website",
 };
 

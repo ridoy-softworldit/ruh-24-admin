@@ -1182,7 +1182,7 @@ const OrderPage = () => {
             {/* Print Header */}
             <div className="hidden print:block mb-8">
               <div className="text-center border-b-2 border-gray-300 pb-4">
-                <h1 className="text-3xl font-bold text-gray-800">BDM BAZAR</h1>
+                <h1 className="text-3xl font-bold text-gray-800">Ruh24</h1>
                 <p className="text-gray-600 mt-1">Order Invoice</p>
               </div>
             </div>
@@ -1238,7 +1238,7 @@ const OrderPage = () => {
                           document.body.innerHTML = `
                             <div class="receipt-content">
                               <div class="receipt-header">
-                                <h1>BDM BAZAR</h1>
+                                <h1>Ruh24</h1>
                                 <p>Order Management Receipt</p>
                                 <p>Order ID: ${rawOrder.orderId || rawOrder._id}</p>
                                 <p>Date: ${new Date(rawOrder.createdAt).toLocaleString()}</p>
