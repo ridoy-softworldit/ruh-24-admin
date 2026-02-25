@@ -414,7 +414,6 @@ export function AppSidebar({
           "shrink-0"
         )}
       >
-        
         {!isCollapsed && (
           <h1 className="text-lg font-bold text-black truncate transition-opacity duration-200">
             <Image
