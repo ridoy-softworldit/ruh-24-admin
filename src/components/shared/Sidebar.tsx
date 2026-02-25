@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import logo from "/public/logo.png";
+import Logo from "/public/logo.png";
 import {
   LayoutDashboard,
   ShoppingCart,
@@ -29,9 +29,8 @@ import {
   Star,
   Award,
   UserPlus,
-  Folders,
 } from "lucide-react";
-import { MdPayment, MdSettings } from "react-icons/md";
+import { MdPayment } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 import {
   Collapsible,
@@ -418,7 +417,7 @@ export function AppSidebar({
         {!isCollapsed && (
           <h1 className="text-lg font-bold text-black truncate transition-opacity duration-200">
             <Image
-              src={logo}
+              src={Logo}
               alt="logo"
               height={60}
               width={60}

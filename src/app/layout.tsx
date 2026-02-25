@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ruh24",
-  description: "Vendor management website",
+  description: "E commerce shopping website",
 };
 
 export default function RootLayout({
