@@ -372,11 +372,11 @@ export default function GeneralSettingsPage() {
         {/* WELCOME TAB */}
         <TabsContent value="welcome" className="space-y-4 mt-6">
           <div>
-            <label className="block mb-1 text-sm font-medium">
+            <label className="block mb-1 text-sm font-medium opacity-50">
               Welcome Message
             </label>
             <Input
-              placeholder="বিডিএম বাজারে স্বাগতম !"
+              placeholder="Ruh24 এ  স্বাগতম !"
               value={settings.welcomeMessage}
               onChange={(e) =>
                 setSettings((prev) => ({ ...prev, welcomeMessage: e.target.value }))
